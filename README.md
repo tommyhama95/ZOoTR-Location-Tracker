@@ -14,11 +14,11 @@ This is a website/project created to help new players coming to the Ocarina of T
 
 
 ## Checklist
-[] Display cards for each area
-[] Fill cards with locations and make checkable
-[] Make global counter telling checked locations out of total
-[] Make locations that require items disabled
-[] Make item tracker checker for opening locations on the cards
-[] Item tracker should enable location that requires set item
-[] make the global counter show available locations
-[] If all checks done, make card disabled or flashy green?
+- [ ] Display cards for each area
+- [ ] Fill cards with locations and make checkable
+- [ ] Make global counter telling checked locations out of total
+- [ ] Make locations that require items disabled
+- [ ] Make item tracker checker for opening locations on the cards
+- [ ] Item tracker should enable location that requires set item
+- [ ] make the global counter show available locations
+- [ ] If all checks done, make card disabled or flashy green?
