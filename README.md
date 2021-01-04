@@ -10,7 +10,7 @@ This is a website/project created to help new players coming to the Ocarina of T
 
 4. Make website/project to be PWA friendly and SEO optimized
 
-5. Add skulltula sanity, cow sanity, scrub salesman sanity
+5. Add skulltula sanity, cow sanity, scrub salesman sanity, magic bean sanity
 
 
 ## Checklist

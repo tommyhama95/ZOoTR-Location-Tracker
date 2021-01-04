@@ -11,11 +11,7 @@ async function getLocations() {
 }
 
 function displayLocationCards(arr) {
-    for(let location of arr) {
-        if(Object.getOwnPropertyNames(location)[0].includes("Boss ")) {
-            console.log(true)
-        }
-    }
+
 }
 
 
