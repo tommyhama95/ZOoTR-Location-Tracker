@@ -1,23 +1,16 @@
 {
     "locations": [
         [
-            {"Queen Gohma":                             ["slingshot"]},
-            {"King Dodongo":                            ["bomb bag", "strength 1"]},
-            {"Barinade":                                ["boomerang"]},
-            {"Phantom Ganon":                           ["hookshot", "bow"]},
-            {"Volvagia":                                ["hammer"]},
-            {"Morpha":                                  ["hookshot"]},
-            {"Bongo Bongo":                             ["hookshot", "bow"]},
-            {"Twinrova":                                ["mirror shield"]}
-        ],
-        [
+            {"Kokiri Forest": ""},
             {"Midos Top Left Chest":                    []},
             {"Midos Top Right Chest":                   []},
             {"Midos Bottom Left Chest":                 []},
             {"Midos Bottom Right Chest":                []},
             {"Kokiri Sword Chest":                      []},
             {"Storms Grotto Chest":                     ["song of storms"]}
-        ],[
+        ],
+        [
+            {"Lost Woods": ""},
             {"Ocarina Memory Game":                     []},
             {"Target in Woods":                         ["slingshot"]},
             {"Near Shortcuts Grotto Chest":             ["bomb bag"]},
@@ -31,6 +24,7 @@
             {"Minuet of Forest":                        ["saria's song", "minuet of forest"]}
         ],
         [
+            {"Hyrule Field": ""},
             {"Near Market Grotto Chest":                ["bomb bag"]},
             {"Tektite Grotto Freestanding PoH":         ["bomb bag", "iron boots", "golden scale"]},
             {"Southeast Grotto Chest":                  ["bomb bag"]},
@@ -39,6 +33,7 @@
             {"Song of Time":                            ["all stones"]}
         ],
         [
+            {"Market & Temple of Time": ""},
             {"Shooting Gallery Reward":                 []},
             {"Bombchu Bowling First Prize":             ["bomb bag"]},
             {"Bombchu Bowling Second Prize":            ["bomb bag"]},
@@ -49,17 +44,20 @@
             {"Prelude of Light":                        ["light medallion"]}
         ],
         [
+            {"Hyrule Castle Area": ""},
             {"Malon Egg":                               []},
             {"Zelda's Lullaby":                         ["wierd egg"]},
             {"Child Great Fairy Reward":                ["bomb bag", "zelda's lullaby"]},
             {"Adult Great Fairy Reward":                ["strength 3", "zelda's lullaby"]}
         ],
         [
+            {"Lon Lon Ranch": ""},
             {"Talons Chickens":                         ["wierd egg"]},
             {"Freestanding PoH":                        []},
             {"Epona's Song":                            ["wierd egg"]}
         ],
         [
+            {"Kakariko Village": ""},
             {"Anju as Child":                           []},
             {"Anju as Adult":                           []},
             {"Impas House Freestanding PoH":            []},
@@ -77,7 +75,8 @@
             {"Nocturne of Shadow":                      ["forest medallion", "fire medallion", "water medallion"]}
         ],
         [
-            {"ld Grave Chest":                          []},
+            {"Graveyard": ""},
+            {"Shield Grave Chest":                          []},
             {"Heart Piece Grave Chest":                 ["sun's song"]},
             {"Composers Grave Chest":                   ["fire arrows", "din's fire", "magic"]},
             {"Freestanding PoH":                        ["magic beans"]},
@@ -87,6 +86,7 @@
             {"Sun's Song":                              ["zelda's lullaby"]}
         ],
         [
+            {"Death Mountain Trail": ""},
             {"Freestanding PoH":                        []},
             {"Wall Chest":                              ["bomb bag"]},
             {"Storms Grotto Chest":                     ["song of storm's"]},
@@ -94,6 +94,7 @@
             {"Biggoron":                                []}
         ],
         [
+            {"Goron City": ""},
             {"Darunias Joy":                            ["zelda's lullaby", "saria's song"]},
             {"Pot Freestanding PoH":                    ["bomb bag", "strength 1"]},
             {"Rolling Goron as Child":                  ["bomb bag"]},
@@ -102,7 +103,8 @@
             {"Maze Right Chest":                        ["bomb bag", "hammer"]},
             {"Maze Center Chest":                       ["bomb bag", "hammer"]}
         ],
-        [
+        [ 
+            {"Death Mountain Crater": ""},
             {"Volcano Freestanding PoH":                ["hover boots", "magic beans"]},
             {"Wall Freestanding PoH":                   []},
             {"Upper Grotto Chest":                      ["bomb bag"]},
@@ -110,6 +112,7 @@
             {"Bolero of Fire":                          ["hookshot", "hover boots", "bolero of fire"]}
         ],
         [
+            {"Zora's River": ""},
             {"Open Grotto Chest":                       []},
             {"Frogs in the Rain":                       ["song of storms"]},
             {"Frogs Ocarina Game":                      ["all songs"]},
@@ -117,16 +120,19 @@
             {"Near Domain Freestanding PoH":            []}
         ],
         [
+            {"Zora's Domain": ""},
             {"Diving Minigame":                         []},
             {"Waterfall Chest":                         []},
             {"King Zora Thawed":                        ["blue fire"]}
         ],
         [
+            {"Zora's Fountain": ""},
             {"Great Fairy Reward":                      ["bomb bag", "zelda's lullaby"]},
             {"Iceberg Freestanding PoH":                []},
             {"Bottom Freestanding PoH":                 ["iron boots"]}
         ],
         [
+            {"Lake Hylia": ""},
             {"Underwater Item":                         ["silver scale"]},
             {"Child Fishing":                           []},
             {"Adult Fishing":                           ["hookshot"]},
@@ -135,43 +141,53 @@
             {"Sun":                                     ["bow", "longshot"]}
         ],
         [
+            {"Gerudo Valley": ""},
             {"Crate Freestanding PoH":                  []},
             {"Waterfall Freestanding PoH":              []},
             {"Hamme Boulder Chest":                     ["hammer"]}
         ],
         [
+            {"Gerudo Fortress": ""},
             {"Fortress Roof Chest":                     ["hookshot", "hover boots"]},
             {"Horse Archery 1000 Points":               ["bow", "epona's song"]},
             {"Horse Archery 1500 Points":               ["bow", "epona's song"]}
         ],
         [
+            {"Desert Area": ""},
             {"Wasteland Chest":                         ["magic, longshot", "lense of truth"]},
             {"Colossus Great Fairy Reward":             ["bomb bag", "zelda's lullaby"]},
             {"Colossus Freestanding PoH":               ["magic beans"]},
             {"Requiem of Spirit":                       ["requiem of spirit"]}
         ],
         [
+            {"Deku Tree": ""},
             {"Map Chest":                               []},
             {"Slingshot Room Side Chest":               []},
             {"Slingshot Chest":                         []},
             {"Compass Chest":                           []},
             {"Compass Room Side Chest":                 []},
-            {"Basement Chest":                          []}
+            {"Basement Chest":                          []},
+            {"Queen Gohma":                             ["slingshot"]}
         ],
         [
+            {"Dodongo's Cavern": ""},
             {"Map Chest":                               ["bomb bag", "strength 1"]},
             {"Compass Chest":                           ["bomb bag"]},
             {"Bomb Flower Platform Chest":              []},
             {"Bomb Bag Chest":                          []},
             {"End of Bridge Chest":                     ["bomb bag"]},
-            {"Boss-Room Chest":                         []}
+            {"Boss-Room Chest":                         []},
+            {"King Dodongo":                            ["bomb bag", "strength 1"]}
         ],
-        [
+        [ 
+            {"Jabu Jabu": ""},
             {"Boomerang Chest":                         []},
             {"Map Chest":                               []},
-            {"Compass Chest":                           []}
+            {"Compass Chest":                           []},
+            {"Barinade":                                ["boomerang"]}
         ],
         [
+            {"Bottom of the Well": ""},
             {"Front Left Fake Wall Chest":              []},
             {"Front Center Bombable Chest":             ["bomb bag"]},
             {"Back Left Bombable Chest":                ["bomb bag"]},
@@ -188,6 +204,7 @@
             {"Lens of Truth Chest":                     []}
         ],
         [
+            {"Forest Temple": ""},
             {"First Room Chest":                        []},
             {"First Stalfos Chest":                     []},
             {"Raised Island Courtyard Chest":           ["hookshot"]},
@@ -200,9 +217,11 @@
             {"Bow Chest":                               []},
             {"Blue Poe Chest":                          ["bow"]},
             {"Falling Ceiling Room Chest":              []},
-            {"Basement Chest":                          []}
+            {"Basement Chest":                          []},
+            {"Phantom Ganon":                           ["hookshot", "bow"]}
         ],
         [
+            {"Fire Temple": ""},
             {"Boss-Room Chest":                         []},
             {"Flare Dancer Chest":                      ["hammer"]},
             {"Boss-Key Chest":                          ["hammer"]},
@@ -216,9 +235,11 @@
             {"Scarecrow Chest":                         ["hookshot"]},
             {"Compass Chest":                           []},
             {"Megaton Hammer Chest":                    []},
-            {"Highest Goron Chest":                     ["hookshot"]}
+            {"Highest Goron Chest":                     ["hookshot"]},
+            {"Volvagia":                                ["hammer"]}
         ],
         [
+            {"Water Temple": ""},
             {"Compass Chest":                           []},
             {"Map Chest":                               []},
             {"Cracked Wall Chest":                      ["bomb bag"]},
@@ -228,9 +249,11 @@
             {"Central Bow Target Chest":                ["bow", "longshot"]},
             {"Longshot Chest":                          []},
             {"River Chest":                             ["bow"]},
-            {"Dragon Chest":                            []}
+            {"Dragon Chest":                            []},
+            {"Morpha":                                  ["hookshot"]}
         ],
         [
+            {"Shadow Temple": ""},
             {"Map Chest":                               []},
             {"Hover Boots Chest":                       []},
             {"Compass Chest":                           ["hover boots", "lense of truth", "magic"]},
@@ -247,9 +270,11 @@
             {"After Wind Hidden Chest":                 ["hover boots", "lense of truth", "magic"]},
             {"Spike Walls Left Chest":                  ["hover boots", "lense of truth", "magic", "zelda's lullaby"]},
             {"Boss-Key Chest":                          ["hover boots", "lense of truth", "magic", "zelda's lullaby"]},
-            {"Invisible Floormaster Chest":             ["hover boots", "lense of truth", "magic", "zelda's lullaby"]}
+            {"Invisible Floormaster Chest":             ["hover boots", "lense of truth", "magic", "zelda's lullaby"]},
+            {"Bongo Bongo":                             ["hookshot", "bow"]}
         ],
         [
+            {"Spirit Temple": ""},
             {"Child Bridge Chest":                      ["boomerang", "bombchu"]},
             {"Child Torches Chest":                     ["slingshot", "boomerang", "din's fire"]},
             {"Child Switch North Chest":                ["slingshot", "boomerang", "bomb bag"]},
@@ -268,9 +293,11 @@
             {"Mirror Shield Chest":                     ["strength 2"]},
             {"Near Four Armos Chest":                   ["strength 2", "mirror shield"]},
             {"Boss-Key Chest":                          ["strength 2"]},
-            {"Topmost Chest":                           ["strength 2", "mirror shield"]}
+            {"Topmost Chest":                           ["strength 2", "mirror shield"]},
+            {"Twinrova":                                ["mirror shield"]}
         ],
         [
+            {"Ice Cavern": ""},
             {"Map Chest":                               []},
             {"Compass Chest":                           []},
             {"Freestanding PoH":                        []},
@@ -278,6 +305,7 @@
             {"Serenade of Water":                       ["ruto's letter"]}
         ],
         [
+            {"Gerudo Training Ground": ""},
             {"Lobby Left Chest":                        ["bow"]},
             {"Lobby Right Chest":                       ["bow"]},
             {"Stalfos Chest":                           []},
@@ -302,6 +330,7 @@
             {"Maze Path Final Chest":                   []}
         ],
         [
+            {"Ganon's Castle": ""},
             {"Forest Trial Chest":                      []},
             {"Water Trial Left Chest":                  []},
             {"Water Trial Right Chest":                 []},
