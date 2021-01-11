@@ -14,8 +14,8 @@ This is a website/project created to help new players coming to the Ocarina of T
 
 
 ## Checklist
-- [ ] Display cards for each area
-- [ ] Fill cards with locations and make checkable
+- [x] Display cards for each area
+- [x] Fill cards with locations and make checkable
 - [ ] Make global counter telling checked locations out of total
 - [ ] Make locations that require items disabled
 - [ ] Make item tracker checker for opening locations on the cards
