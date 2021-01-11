@@ -6,19 +6,30 @@ This is a website/project created to help new players coming to the Ocarina of T
 
 2. Make Item tracker for locations to open when aquired
 
-3. Make it swipe-able in order to be further implemented as a PWA for later development
+3. Make website/project to be PWA friendly and SEO optimized
 
-4. Make website/project to be PWA friendly and SEO optimized
+4. Make it swipe-able in order to be further implemented as a PWA for later development
 
 5. Add skulltula sanity, cow sanity, scrub salesman sanity, magic bean sanity
 
 
-## Checklist
+## Checklist for functionality
 - [x] Display cards for each area
 - [x] Fill cards with locations and make checkable
-- [ ] Make global counter telling checked locations out of total
-- [ ] Make locations that require items disabled
-- [ ] Make item tracker checker for opening locations on the cards
-- [ ] Item tracker should enable location that requires set item
-- [ ] make the global counter show available locations
-- [ ] If all checks done, make card disabled or flashy green?
+- [x] Make global counter telling checked locations out of total
+- [ ] Make locations that require a certain item disabled
+- [ ] Make global counter count only enabled checks
+- [ ] Make item tracker-checker for opening locations that are LOCKED because of an item
+- [ ] Item tracker should enable location that requires set item to open when checked
+
+#### Optionals/Improvemnts
+- [ ] Make the global counter show available locations?
+
+## Checklist for design and/or structure
+- [ ] Make cards align and scale according to width size (mobile friendly)
+- [ ] Add Aria-Labels/alt attributes for SEO optimization and screen readers
+- [ ] Find a proper color palette for cards and other elements
+- [ ] Add a footer
+
+#### Optionals/Improvements
+- [ ] If all checks done inside card, make it disabled or flashy green?

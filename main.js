@@ -1,16 +1,16 @@
-const cardContainer = document.querySelector(".location-container");
+const cardsContainer = document.querySelector(".location-container");
+const globalCounter = document.querySelector(".total-tracked");
 
 async function getLocations() {
     fetch("./locations.json")
         .then(result => result.json())
         .then(data => {
-            console.log(data.locations)
-            displayLocationCards(data.locations)
+            displayLocationCards(data.locations);
         });
 }
 
 function displayLocationCards(locations) {
-    locations.map(area => displayArea(area))
+    locations.map(area => displayArea(area));
 }
 
 function displayArea(area) {
@@ -19,7 +19,7 @@ function displayArea(area) {
     
     let cardInnerContainer;
     let cardName;
-    let locatName;
+    let locationName;
     for(let i = 0; i < area.length; i++) {
         const name = Object.getOwnPropertyNames(area[i])[0];
         
@@ -35,33 +35,47 @@ function displayArea(area) {
             card.appendChild(cardInnerContainer);
             continue;
         }
+        locationName = `${cardName}-${createForName(name)}`;
 
-        locatName = `${cardName}-${createForName(name)}`;
-        console.log(locatName)
-        
         const label = document.createElement("label");
         label.innerText = Object.getOwnPropertyNames(area[i])[0];
         label.setAttribute("class", "location-label");
-        label.setAttribute("for", locatName);
+        label.setAttribute("for", locationName);
 
         const checkbox = document.createElement("input");
         checkbox.setAttribute("type", "checkbox");
         checkbox.setAttribute("class", "location-checkbox");
-        checkbox.setAttribute("id", locatName)
+        checkbox.setAttribute("id", locationName);
         
         const locationHolder = document.createElement("div");
         locationHolder.appendChild(checkbox);
         locationHolder.appendChild(label);
-        locationHolder.setAttribute("class", "label-holder")
+        locationHolder.setAttribute("class", "label-holder");
+
+        locationHolder.addEventListener("change", (e) => {
+            const sibling = e.target.nextSibling;
+            e.target.checked ? sibling.classList.add("checked") : sibling.classList.remove("checked");
+            const allBoxes = document.querySelectorAll(".location-checkbox");
+            let counter = 0;
+            for(let n = 0; n < allBoxes.length; n++) {
+                counter += allBoxes[n].checked ? 1 : 0;
+            }
+            globalCounter.innerText = `${counter}/${allBoxes.length}`; 
+        })
         
         cardInnerContainer.appendChild(locationHolder);
     }
-    cardContainer.appendChild(card);
+    cardsContainer.appendChild(card);
 }
 
 function createForName(locationName) {
     const words = locationName.split(" ");
-    const abbreviation = words.map(word => word.match(/[A-Z]/));
+    const abbreviation = words.map(word => {
+        if(parseInt(word)) {
+            return word;
+        }
+        return word.match(/[A-Z]/)    
+    });
     return abbreviation.join("")
 }
 
