@@ -11,7 +11,7 @@ async function getLocations() {
 
 function displayLocationCards(locations) {
     locations.map(area => displayArea(area));
-    
+
 }
 
 function displayArea(area) {

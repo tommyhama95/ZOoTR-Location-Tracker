@@ -37,3 +37,8 @@ This is a website/project created to help new players coming to the Ocarina of T
 
 ## Other checkpoints
 - [x] Buy Domain for the website
+
+
+For later:
+Object.values(area[i])
+How to access the arrays in the objects
