@@ -11,6 +11,7 @@ async function getLocations() {
 
 function displayLocationCards(locations) {
     locations.map(area => displayArea(area));
+    
 }
 
 function displayArea(area) {
@@ -78,6 +79,8 @@ function createForName(locationName) {
     });
     return abbreviation.join("")
 }
+
+
 
 
 getLocations();
