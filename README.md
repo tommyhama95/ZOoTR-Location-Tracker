@@ -33,3 +33,7 @@ This is a website/project created to help new players coming to the Ocarina of T
 
 #### Optionals/Improvements
 - [ ] If all checks done inside card, make it disabled or flashy green?
+
+
+## Other checkpoints
+- [x] Buy Domain for the website
