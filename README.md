@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/efbc2191-12d0-46aa-9277-96192dd39533/deploy-status)](https://app.netlify.com/sites/zelda-tracker/deploys)
+
 # Ocarina of Time Location Tracker Website
 This is a website/project created to help new players coming to the Ocarina of Time Randomizer community to get a better undestanding of all location checkable depending on the items found. This website/project is open source and you are free to make pull requests or send in ideas anytime!
 
