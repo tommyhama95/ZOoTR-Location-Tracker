@@ -27,7 +27,7 @@ Eg: Hookshot is required to enter Forest Temple.
 
 - 5. Add skulltula sanity, cow sanity, scrub salesman sanity, magic bean sanity
 
-[To top :arrow_up:](#Ocarina-of-Time-Randomizer-Tracker-Website)  :arrow_up:
+[To top :arrow_up:](#Ocarina-of-Time-Randomizer-Tracker-Website)
 
 ## Checklist for functionality
 - [x] ~~Display cards for each area~~
@@ -39,30 +39,30 @@ Eg: Hookshot is required to enter Forest Temple.
 - [ ] Make item tracker-checker for opening locations that are LOCKED because of an item
 - [ ] Item tracker should enable location that requires set item to open when checked
 
-[To top :arrow_up:](#Ocarina-of-Time-Randomizer-Tracker-Website)  :arrow_up:
+[To top :arrow_up:](#Ocarina-of-Time-Randomizer-Tracker-Website)
 ## Optionals/Improvemnts
 - [ ] Make the global counter show available locations? (after functionality checklist is done)
 
-[To top :arrow_up:](#Ocarina-of-Time-Randomizer-Tracker-Website)  :arrow_up:
+[To top :arrow_up:](#Ocarina-of-Time-Randomizer-Tracker-Website)
 ## Checklist for design and/or structure
 - [ ] Make cards align and scale according to width size (mobile friendly)
 - [ ] Add Aria-Labels/alt attributes for SEO optimization and screen readers
 - [ ] Find a proper color palette for cards and other elements
 - [ ] Add a footer?
 
-[To top :arrow_up:](#Ocarina-of-Time-Randomizer-Tracker-Website)  :arrow_up:
+[To top :arrow_up:](#Ocarina-of-Time-Randomizer-Tracker-Website)
 #### Optionals / Improvements / Ideas
 - [ ] If all checks done inside card, make it disabled or flashy green?
 
 
-[To top :arrow_up:](#Ocarina-of-Time-Randomizer-Tracker-Website)  :arrow_up:
+[To top :arrow_up:](#Ocarina-of-Time-Randomizer-Tracker-Website)
 ## CI/CD related
 - [x] Buy Domain for the website
 - [x] Deploy to the domain
 - [ ] Add CI tool for better code quality before deployment
 
 
-[To top :arrow_up:](#Ocarina-of-Time-Randomizer-Tracker-Website)  :arrow_up:
+[To top :arrow_up:](#Ocarina-of-Time-Randomizer-Tracker-Website)
 ## Code Conventions
 **Variables, id and classes:**<br>
 - Write variables that are mutable with `let` and `const` for immutable ones.
