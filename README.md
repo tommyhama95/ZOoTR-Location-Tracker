@@ -8,7 +8,7 @@ This website/project is open source and you are free to make pull requests or se
 ## Tables of Content
 1. [Plans for website](#Plans-for-website)
 2. [Functionality list](#Checklist-for-functionality)
-3. [Optionals/Improvemnts](#Optionals,-Improvemnts)
+3. [Optionals/Improvements](#Optionals,-Improvements)
 4. [Design and Structure list](#Checklist-for-design-and-structure)
 6. [CI/CD related](#CI-and-CD-related)
 7. [Code Conventions](#Code-Conventions)
@@ -42,7 +42,7 @@ Eg: Hookshot is required to enter Forest Temple.
 ## Optionals, Improvements
 - [ ] Make the global counter show available locations? (after functionality checklist is done)
 - [ ] If all checks done inside card, make it disabled or flashy green?
-- [ ] Refactor project to be written in React or Vue
+- [x] ~~Refactor project to be written in React~~
 
 [To top :arrow_up:](#Ocarina-of-Time-Randomizer-Tracker-Website)
 ## Checklist for design and structure
@@ -80,6 +80,6 @@ Eg: Hookshot is required to enter Forest Temple.
 [To top :arrow_up:](#Ocarina-of-Time-Randomizer-Tracker-Website) 
 
 ## Codes for later
-- Object.values(area[i]) -> How to access the arrays in the objects
+To be filled out if needed
 
 [To top :arrow_up:](#Ocarina-of-Time-Randomizer-Tracker-Website)  
