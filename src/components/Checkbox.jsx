@@ -1,15 +1,28 @@
+import styled from "styled-components";
 
 const Checkbox = item_location => {
     const item = item_location.item
     const name = Object.getOwnPropertyNames(item)
     return (
-        <div className="label-holder">
-            <input id={name} type="checkbox" className="location-checkbox"/>
-            <label htmlFor={name}>
+        <LabelHolder >
+            <Input id={name} type="checkbox" />
+            <Label htmlFor={name}>
                 {name}
-            </label>
-        </div>
+            </Label>
+        </LabelHolder>
     )
 }
+
+const LabelHolder = styled.div`
+    padding-bottom: 0.8rem;
+`;
+
+const Input = styled.input`
+
+`;
+
+const Label = styled.label`
+
+`;
 
 export default Checkbox;

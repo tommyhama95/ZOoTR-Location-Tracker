@@ -1,4 +1,5 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/efbc2191-12d0-46aa-9277-96192dd39533/deploy-status)](https://app.netlify.com/sites/zelda-tracker/deploys)
+![Build and Deploy](https://github.com/tommyhama95/ZOoTR-Location-Tracker/workflows/Build%20and%20Deploy/badge.svg)
 
 # Ocarina of Time Randomizer Tracker Website
 This is a website/project created to help new players coming to the Ocarina of Time Randomizer community to get a better undestanding of all location chest/item and get to know what items certain checkables are depended on. 

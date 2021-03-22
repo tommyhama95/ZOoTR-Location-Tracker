@@ -1,3 +1,4 @@
+import styled from "styled-components"
 import Checkbox from "./Checkbox"
 
 const Card = area => {
@@ -5,9 +6,9 @@ const Card = area => {
     const cardTitle = Object.getOwnPropertyNames(location[0])
 
     return (
-        <div className="card">
-            <h2 className="card-title">{cardTitle}</h2>
-            <div className="card-content">
+        <StyledCard>
+            <CardTitle>{cardTitle}</CardTitle>
+            <CardContent>
                 {
                     location.map( (item_location, index) => {
                             if(index !== 0) {
@@ -19,9 +20,30 @@ const Card = area => {
                         }
                     )
                 }
-            </div>
-        </div>
+            </CardContent>
+        </StyledCard>
     )
 }
+
+const StyledCard = styled.div`
+    display: relative;
+    justify-self: center;
+    border: solid 3px rgb(27, 160, 184);
+    border-radius: 7px;
+    height: 100%;
+    width: 70%;
+    min-width: 10%;
+    background-color: rgb(6, 74, 114);
+    margin: 2%;
+    padding: 0.2rem 1rem;
+`;
+
+const CardTitle = styled.h2`
+    margin-top: 1rem;
+`;
+
+const CardContent = styled.div`
+    
+`;
 
 export default Card;
