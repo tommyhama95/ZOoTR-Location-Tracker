@@ -43,7 +43,7 @@
             {"Shooting Gallery Reward":                 []},
             {"Bombchu Bowling First Prize":             ["bomb bag"]},
             {"Bombchu Bowling Second Prize":            ["bomb bag"]},
-            {"Lost Dog":                                []},
+            {"Richard the Lost dog":                    []},
             {"Treasure Chest Game Reward":              ["magic", "lense of truth"]},
             {"10 Big Poes":                             ["bottle"]},
             {"Temple of Time Light Arrows":             ["shadow medallion", "spirit medallion"]},
@@ -112,7 +112,8 @@
             {"Rolling Goron as Child":                  ["bomb bag"]},
             {"Rolling Goron as Adult":                  [
                                                             ["bomb bag"], 
-                                                            ["strength 1"]
+                                                            ["strength 1"],
+                                                            ["bow"]
                                                         ]},
             {"Maze Left Chest":                         [
                                                             ["hammer"], 
