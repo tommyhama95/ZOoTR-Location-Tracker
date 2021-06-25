@@ -1,4 +1,4 @@
-import { BrowserRouter , Switch, Route } from "react-router-dom";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import Ocarina from "./pages/Ocarina";
@@ -9,8 +9,8 @@ function App() {
       <BrowserRouter>
         <Header />
         <Switch>
-            <Route exact path="/" component={Home}/>
-            <Route exact path="/ocarina" component={Ocarina}/>
+            <Route exact path="/Home" component={Home}/>
+            <Route exact path="/" component={Ocarina}/>
         </Switch>
       </BrowserRouter>
     </div>

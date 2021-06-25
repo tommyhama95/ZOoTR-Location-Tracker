@@ -1,9 +1,0 @@
-
-.location-container {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 3rem;
-  height: 100%;
-  width: 100%;
-}
-

@@ -1,13 +1,28 @@
-import CardList from "../components/CardList"
-import OOT_LOCATIONS from "../data/ocarina_locations.json";
+import React, { useContext } from "react";
+import styled from "styled-components";
+import CardList from "../components/CardList";
+import { CounterContext } from "../context/CounterContext";
+
 
 const Ocarina = () => {
+    const context = useContext(CounterContext);
+    
 
     return (
-        <div>
-            <CardList locations={OOT_LOCATIONS}/>
-        </div>
+        <PageContainer>
+            <CardList locations={context.getOcarinaLocations()} />
+        </PageContainer>
     )
 }
+
+const PageContainer = styled.div`
+    position: relative;
+
+`;
+
+const Counter = styled.h2`
+    display: relative;
+`;
+
 
 export default Ocarina;

@@ -1,13 +1,21 @@
-import styled from "styled-components"
-import Checkbox from "./Checkbox"
+import { useState } from "react";
+import styled from "styled-components";
+import Checkbox from "./Checkbox";
 
-const Card = area => {
-    const location = area.location
-    const cardTitle = Object.getOwnPropertyNames(location[0])
+const Card = (area) => {
+    const [checked, setChecked] = useState(0);
+    const location = area.location;
+    const cardTitle = Object.getOwnPropertyNames(location[0]);
+
+    const updateCard = (status) => {
+        const b = status ? setChecked(checked+1) : setChecked(checked-1);
+    }
+
+    const status = checked === location.length-1;
 
     return (
-        <StyledCard>
-            <CardTitle>{cardTitle}</CardTitle>
+        <StyledCard style={{backgroundColor: status ? "darkgreen" : "rgb(6, 74, 114)"}}>
+            <CardTitle style={{color: status ? "lightgreen" : "white"}}>{cardTitle} {checked}/{location.length -1}</CardTitle>
             <CardContent>
                 {
                     location.map( (item_location, index) => {
@@ -15,8 +23,10 @@ const Card = area => {
                                 return <Checkbox 
                                     key={index} 
                                     item={item_location} 
+                                    updateCard={updateCard}
                                 />
                             }
+                            return <div display={"none"} key={index}></div>;
                         }
                     )
                 }
