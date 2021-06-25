@@ -8,7 +8,7 @@ const Card = (area) => {
     const cardTitle = Object.getOwnPropertyNames(location[0]);
 
     const updateCard = (status) => {
-        const b = status ? setChecked(checked+1) : setChecked(checked-1);
+        status ? setChecked(checked+1) : setChecked(checked-1);
     }
 
     const status = checked === location.length-1;

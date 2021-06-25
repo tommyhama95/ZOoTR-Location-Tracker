@@ -6,7 +6,6 @@ import { CounterContext } from "../context/CounterContext";
 
 const Ocarina = () => {
     const context = useContext(CounterContext);
-    
 
     return (
         <PageContainer>
@@ -18,10 +17,6 @@ const Ocarina = () => {
 const PageContainer = styled.div`
     position: relative;
 
-`;
-
-const Counter = styled.h2`
-    display: relative;
 `;
 
 
