@@ -42,12 +42,12 @@ Eg: Hookshot is required to enter Forest Temple.
 [To top :arrow_up:](#Ocarina-of-Time-Randomizer-Tracker-Website)
 ## Optionals, Improvements
 - [ ] Make the global counter show available locations? (after functionality checklist is done)
-- [ ] If all checks done inside card, make it disabled or flashy green?
+- [x] If all checks done inside card, make it disabled or flashy green?
 - [x] ~~Refactor project to be written in React~~
 
 [To top :arrow_up:](#Ocarina-of-Time-Randomizer-Tracker-Website)
 ## Checklist for design and structure
-- [ ] Make cards align and scale according to width size (mobile friendly)
+- [x] Make cards align and scale according to width size (mobile friendly)
 - [ ] Add Aria-Labels/alt attributes for SEO optimization and screen readers
 - [ ] Find a proper color palette for cards and other elements
 - [ ] Add a footer?
@@ -57,7 +57,7 @@ Eg: Hookshot is required to enter Forest Temple.
 ## CI and CD related
 - [x] Buy Domain for the website
 - [x] Deploy to the domain
-- [ ] Add CI tool for better code quality before deployment
+- [x] Add CI tool for better code quality before deployment
 
 
 [To top :arrow_up:](#Ocarina-of-Time-Randomizer-Tracker-Website)
