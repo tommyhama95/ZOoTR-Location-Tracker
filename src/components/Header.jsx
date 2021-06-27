@@ -34,14 +34,19 @@ const StyledHeader = styled.header`
   flex-direction: row;
   justify-content: space-around;
   height: 100%;
+
+  @media (max-width: 800px) {
+      flex-direction: column;
+      margin-left: 1em;
+  }
 `;
 
 const StyledH1 = styled.h1`
-
+    font-size: calc(2rem - 0.5rem);
 `;
 
 const Counter = styled.h1`
-
+    font-size: calc(2rem - 0.5rem);
 `;
 
 
