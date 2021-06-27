@@ -25,7 +25,7 @@ const Checkbox = (item_location) => {
     return (
         <LabelHolder>
             <Input id={`${name}${item_location.cardLevel}`} type="checkbox" readOnly={true} checked={clicked} onChange={handleOnClick}/>
-            <Label htmlFor={`${name}${item_location.cardlevel}`} readOnly={true} textColor={statusColor}>
+            <Label htmlFor={`${name}${item_location.cardLevel}`} readOnly={true} textColor={statusColor}>
                 {name}
             </Label>
         </LabelHolder>
