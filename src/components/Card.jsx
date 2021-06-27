@@ -14,8 +14,8 @@ const Card = (area) => {
     const status = checked === location.length-1;
 
     return (
-        <StyledCard style={{backgroundColor: status ? "darkgreen" : "rgb(6, 74, 114)"}}>
-            <CardTitle style={{color: status ? "lightgreen" : "white"}}>{cardTitle} {checked}/{location.length -1}</CardTitle>
+        <StyledCard bgColor={status} >
+            <CardTitle  textColor={status}>{cardTitle} {checked}/{location.length -1}</CardTitle>
             <CardContent>
                 {
                     location.map( (item_location, index) => {
@@ -24,6 +24,7 @@ const Card = (area) => {
                                     key={index} 
                                     item={item_location} 
                                     updateCard={updateCard}
+                                    cardLevel={cardTitle}
                                 />
                             }
                             return <div display={"none"} key={index}></div>;
@@ -40,20 +41,21 @@ const StyledCard = styled.div`
     justify-self: center;
     border: solid 3px rgb(27, 160, 184);
     border-radius: 7px;
-    height: 100%;
+    
     width: 70%;
     min-width: 10%;
-    background-color: rgb(6, 74, 114);
+    background-color: ${props => props.bgColor ? "darkgreen" : "rgb(6, 74, 114)"};
     margin: 2%;
     padding: 0.2rem 1rem;
 `;
 
 const CardTitle = styled.h2`
     margin-top: 1rem;
+    color: ${props => props.textColor ? "lightgreen" : "white"}
 `;
 
 const CardContent = styled.div`
-    
+
 `;
 
 export default Card;
